@@ -4,7 +4,7 @@ import axios from "axios";
 const doTranslation = async (input, languageCode, cancelToken) => {
   try {
     const { data } = await axios.post(
-      "https://translation.googleapis.com/language/translate/v2?key=AIzaSyCf0Xy0OnhxlduyEt3K8zP-sOuu-l_u6uA",
+      "https://translation.googleapis.com/language/translate/v2?key=AIzaSyBx7sSjJesbmmw-fdoGXq6uy9TdIOp83s8",
       {
         q: input,
         target: languageCode
